@@ -8,6 +8,7 @@
 }
 *{
     margin: 0;
+    margin-bottom: 20px;
 }
 
 
@@ -30,6 +31,7 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+
 .btn-primary {
     background-color: #FF900E;
     color: white;
@@ -39,8 +41,14 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+.section-titel{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
 main{
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 main > section {
@@ -113,11 +121,7 @@ main > section {
     margin-left: 130px;
     max-width: 530px;
 }
-.feature-titel{
-    font-size: 2.80rem;
-    margin-bottom: 24px;
-    font-weight: 700;
-}
+
 .feature-description {
     font-size: 1rem;
     margin-bottom: 32px;
@@ -128,6 +132,35 @@ main > section {
 
 
 
+/* some facts related style */
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card {
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-discription {
+    max-width: 540px;
+    margin-bottom: 100px;
+}
 
 /* navber and banner Responsive media query */
 
